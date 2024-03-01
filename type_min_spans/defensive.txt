@@ -1,0 +1,154 @@
+Bug, Dragon, Dark, Steel
+Flying, Dragon, Dark, Steel
+Water, Ground, Bug, Dark, Steel
+Fire, Grass, Dark, Steel, Fairy
+Water, Grass, Bug, Dark, Steel
+Grass, Flying, Rock, Dark, Steel
+Grass, Poison, Rock, Dark, Steel
+Normal, Fire, Grass, Steel, Fairy
+Water, Grass, Ghost, Dark, Steel
+Water, Electric, Flying, Dark, Steel
+Normal, Fighting, Flying, Dragon, Steel
+Fire, Grass, Poison, Dark, Steel
+Fire, Grass, Flying, Dark, Steel
+Water, Electric, Bug, Dark, Steel
+Normal, Grass, Dragon, Steel, Fairy
+Grass, Poison, Dragon, Dark, Steel
+Normal, Flying, Dragon, Steel, Fairy
+Water, Grass, Psychic, Dark, Steel
+Fire, Grass, Bug, Dark, Steel
+Normal, Water, Grass, Steel, Fairy
+Fire, Grass, Psychic, Dark, Steel
+Water, Grass, Dark, Steel, Fairy
+Grass, Rock, Ghost, Dark, Steel
+Grass, Dragon, Dark, Steel, Fairy
+Normal, Fighting, Bug, Dragon, Steel
+Grass, Bug, Rock, Dark, Steel
+Grass, Ghost, Dragon, Dark, Steel
+Water, Ground, Flying, Dark, Steel
+Normal, Bug, Dragon, Steel, Fairy
+Grass, Psychic, Dragon, Dark, Steel
+Grass, Rock, Dark, Steel, Fairy
+Normal, Grass, Rock, Steel, Fairy
+Water, Grass, Poison, Dark, Steel
+Fire, Grass, Ghost, Dark, Steel
+Grass, Psychic, Rock, Dark, Steel
+Water, Grass, Flying, Dark, Steel
+Normal, Fire, Grass, Fighting, Poison, Steel
+Normal, Grass, Fighting, Ghost, Dragon, Steel
+Normal, Grass, Fighting, Psychic, Dragon, Steel
+Normal, Grass, Fighting, Bug, Rock, Steel
+Fire, Grass, Ground, Rock, Dark, Fairy
+Normal, Fire, Grass, Fighting, Psychic, Steel
+Normal, Water, Grass, Fighting, Psychic, Steel
+Normal, Water, Electric, Fighting, Bug, Steel
+Normal, Water, Grass, Fighting, Ghost, Steel
+Normal, Water, Electric, Fighting, Flying, Steel
+Normal, Grass, Fighting, Psychic, Rock, Steel
+Normal, Water, Ground, Flying, Steel, Fairy
+Normal, Water, Fighting, Ground, Bug, Steel
+Normal, Water, Grass, Fighting, Flying, Steel
+Normal, Water, Grass, Fighting, Poison, Steel
+Normal, Grass, Fighting, Poison, Rock, Steel
+Normal, Water, Electric, Flying, Steel, Fairy
+Normal, Grass, Fighting, Rock, Ghost, Steel
+Normal, Fire, Grass, Fighting, Bug, Steel
+Fire, Grass, Fighting, Rock, Dark, Fairy
+Normal, Grass, Fighting, Poison, Dragon, Steel
+Normal, Water, Grass, Fighting, Bug, Steel
+Normal, Water, Ground, Bug, Steel, Fairy
+Normal, Water, Fighting, Ground, Flying, Steel
+Normal, Water, Electric, Bug, Steel, Fairy
+Normal, Fire, Grass, Fighting, Ghost, Steel
+Normal, Grass, Fighting, Flying, Rock, Steel
+Normal, Fire, Grass, Fighting, Flying, Steel
+Fire, Fighting, Flying, Rock, Dragon, Dark, Fairy
+Fire, Ground, Flying, Rock, Dragon, Dark, Fairy
+Fire, Water, Ground, Bug, Rock, Dark, Fairy
+Normal, Fire, Grass, Fighting, Psychic, Rock, Fairy
+Fire, Ground, Bug, Rock, Dragon, Dark, Fairy
+Fire, Electric, Grass, Fighting, Ghost, Dark, Fairy
+Water, Grass, Poison, Ground, Rock, Dark, Fairy
+Water, Poison, Ground, Flying, Rock, Dark, Fairy
+Fire, Fighting, Bug, Rock, Dragon, Dark, Fairy
+Fire, Electric, Grass, Ground, Ghost, Dark, Fairy
+Fire, Water, Ground, Flying, Rock, Dark, Fairy
+Normal, Fire, Grass, Ground, Psychic, Rock, Fairy
+Water, Poison, Ground, Bug, Rock, Dark, Fairy
+Water, Grass, Fighting, Poison, Rock, Dark, Fairy
+Electric, Grass, Ice, Poison, Ground, Rock, Dark, Fairy
+Water, Electric, Grass, Fighting, Poison, Ghost, Dark, Fairy
+Normal, Water, Grass, Fighting, Poison, Psychic, Rock, Fairy
+Water, Electric, Grass, Poison, Ground, Ghost, Dark, Fairy
+Normal, Water, Grass, Poison, Ground, Psychic, Rock, Fairy
+Normal, Fire, Water, Ground, Psychic, Bug, Rock, Fairy
+Fire, Water, Electric, Fighting, Bug, Ghost, Dark, Fairy
+Water, Electric, Fighting, Poison, Flying, Rock, Dark, Fairy
+Normal, Fire, Ground, Flying, Psychic, Rock, Dragon, Fairy
+Fire, Water, Electric, Fighting, Flying, Ghost, Dark, Fairy
+Electric, Grass, Ice, Fighting, Poison, Rock, Dark, Fairy
+Water, Electric, Fighting, Poison, Flying, Ghost, Dark, Fairy
+Normal, Fire, Water, Ground, Flying, Psychic, Rock, Fairy
+Fire, Electric, Ground, Bug, Ghost, Dragon, Dark, Fairy
+Water, Fighting, Poison, Bug, Rock, Dragon, Dark, Fairy
+Fire, Electric, Ground, Flying, Ghost, Dragon, Dark, Fairy
+Normal, Fire, Electric, Grass, Fighting, Psychic, Ghost, Fairy
+Water, Electric, Poison, Ground, Bug, Ghost, Dark, Fairy
+Water, Fighting, Poison, Flying, Rock, Dragon, Dark, Fairy
+Fire, Electric, Fighting, Bug, Ghost, Dragon, Dark, Fairy
+Normal, Water, Poison, Ground, Psychic, Bug, Rock, Fairy
+Fire, Water, Electric, Fighting, Bug, Rock, Dark, Fairy
+Normal, Fire, Electric, Grass, Ground, Psychic, Ghost, Fairy
+Fire, Electric, Fighting, Flying, Ghost, Dragon, Dark, Fairy
+Water, Electric, Fighting, Poison, Bug, Ghost, Dark, Fairy
+Fire, Water, Electric, Ground, Flying, Ghost, Dark, Fairy
+Normal, Water, Poison, Ground, Flying, Psychic, Rock, Fairy
+Fire, Water, Electric, Fighting, Flying, Rock, Dark, Fairy
+Normal, Fire, Fighting, Flying, Psychic, Rock, Dragon, Fairy
+Fire, Water, Electric, Ground, Bug, Ghost, Dark, Fairy
+Normal, Fire, Ground, Psychic, Bug, Rock, Dragon, Fairy
+Normal, Fire, Fighting, Psychic, Bug, Rock, Dragon, Fairy
+Water, Electric, Poison, Ground, Flying, Ghost, Dark, Fairy
+Water, Electric, Fighting, Poison, Bug, Rock, Dark, Fairy
+Normal, Water, Electric, Fighting, Poison, Flying, Psychic, Ghost, Fairy
+Normal, Fire, Water, Electric, Fighting, Psychic, Bug, Ghost, Fairy
+Electric, Ice, Fighting, Poison, Bug, Ghost, Dragon, Dark, Fairy
+Electric, Ice, Fighting, Poison, Flying, Ghost, Dragon, Dark, Fairy
+Normal, Water, Electric, Grass, Poison, Ground, Psychic, Ghost, Fairy
+Normal, Water, Electric, Fighting, Poison, Psychic, Bug, Ghost, Fairy
+Normal, Fire, Water, Electric, Ground, Psychic, Bug, Ghost, Fairy
+Normal, Water, Electric, Poison, Ground, Psychic, Bug, Ghost, Fairy
+Electric, Ice, Poison, Ground, Flying, Rock, Dragon, Dark, Fairy
+Normal, Fire, Electric, Ground, Flying, Psychic, Ghost, Dragon, Fairy
+Normal, Electric, Grass, Ice, Fighting, Poison, Psychic, Rock, Fairy
+Electric, Ice, Poison, Ground, Flying, Ghost, Dragon, Dark, Fairy
+Normal, Fire, Electric, Ground, Psychic, Bug, Ghost, Dragon, Fairy
+Normal, Water, Electric, Grass, Fighting, Poison, Psychic, Ghost, Fairy
+Normal, Fire, Water, Electric, Fighting, Psychic, Bug, Rock, Fairy
+Electric, Grass, Ice, Fighting, Poison, Ghost, Dragon, Dark, Fairy
+Normal, Water, Fighting, Poison, Flying, Psychic, Rock, Dragon, Fairy
+Electric, Ice, Fighting, Poison, Bug, Rock, Dragon, Dark, Fairy
+Normal, Fire, Water, Electric, Fighting, Flying, Psychic, Ghost, Fairy
+Normal, Electric, Grass, Ice, Poison, Ground, Psychic, Rock, Fairy
+Electric, Ice, Poison, Ground, Bug, Ghost, Dragon, Dark, Fairy
+Normal, Water, Electric, Fighting, Poison, Psychic, Bug, Rock, Fairy
+Normal, Water, Electric, Poison, Ground, Flying, Psychic, Ghost, Fairy
+Electric, Ice, Poison, Ground, Bug, Rock, Dragon, Dark, Fairy
+Electric, Grass, Ice, Poison, Ground, Ghost, Dragon, Dark, Fairy
+Normal, Water, Electric, Fighting, Poison, Flying, Psychic, Rock, Fairy
+Normal, Fire, Water, Electric, Fighting, Flying, Psychic, Rock, Fairy
+Normal, Fire, Electric, Fighting, Flying, Psychic, Ghost, Dragon, Fairy
+Normal, Water, Fighting, Poison, Psychic, Bug, Rock, Dragon, Fairy
+Electric, Ice, Fighting, Poison, Flying, Rock, Dragon, Dark, Fairy
+Normal, Fire, Electric, Fighting, Psychic, Bug, Ghost, Dragon, Fairy
+Normal, Fire, Water, Electric, Ground, Flying, Psychic, Ghost, Fairy
+Normal, Electric, Grass, Ice, Poison, Ground, Psychic, Ghost, Dragon, Fairy
+Normal, Electric, Ice, Poison, Ground, Flying, Psychic, Ghost, Dragon, Fairy
+Normal, Electric, Ice, Fighting, Poison, Flying, Psychic, Rock, Dragon, Fairy
+Normal, Electric, Ice, Fighting, Poison, Flying, Psychic, Ghost, Dragon, Fairy
+Normal, Electric, Ice, Poison, Ground, Psychic, Bug, Rock, Dragon, Fairy
+Normal, Electric, Ice, Poison, Ground, Psychic, Bug, Ghost, Dragon, Fairy
+Normal, Electric, Ice, Fighting, Poison, Psychic, Bug, Rock, Dragon, Fairy
+Normal, Electric, Ice, Fighting, Poison, Psychic, Bug, Ghost, Dragon, Fairy
+Normal, Electric, Grass, Ice, Fighting, Poison, Psychic, Ghost, Dragon, Fairy
+Normal, Electric, Ice, Poison, Ground, Flying, Psychic, Rock, Dragon, Fairy

@@ -1,0 +1,106 @@
+Normal, Ground
+Ghost, Fairy
+Ice, Ghost
+Electric, Psychic
+Fighting, Flying
+Grass, Ghost
+Water, Fighting
+Fighting, Steel
+Fire, Rock
+Flying, Dark
+Electric, Fairy
+Poison, Ghost
+Electric, Ghost
+Normal, Dark
+Water, Dark
+Ice, Fighting
+Fire, Dragon
+Electric, Bug
+Water, Psychic
+Bug, Ghost
+Fire, Ground
+Ground, Flying
+Flying, Ghost
+Electric, Ice
+Rock, Ghost
+Water, Fairy
+Fire, Fighting
+Normal, Ghost
+Water, Ghost
+Ground, Dragon
+Ground, Steel
+Fighting, Rock
+Fire, Dark
+Dark, Steel
+Water, Bug
+Normal, Water
+Ghost, Dragon
+Ghost, Steel
+Fighting, Ghost
+Fire, Psychic
+Ice, Ground
+Ground, Dark
+Electric, Dragon
+Fire, Ghost
+Poison, Ground
+Normal, Electric
+Ground, Rock
+Ice, Dark
+Ground, Psychic
+Water, Rock
+Grass, Dark
+Electric, Fighting
+Water, Flying
+Water, Poison
+Ground, Fairy
+Poison, Dark
+Ground, Ghost
+Electric, Dark
+Water, Dragon
+Dark, Fairy
+Grass, Fighting, Psychic
+Fighting, Poison, Dragon
+Normal, Fighting, Psychic
+Electric, Grass, Rock
+Fire, Poison, Bug
+Normal, Fighting, Fairy
+Electric, Grass, Flying
+Electric, Grass, Poison
+Fighting, Psychic, Dragon
+Electric, Poison, Flying
+Psychic, Bug, Dark
+Normal, Fire, Fairy
+Normal, Fire, Steel
+Psychic, Rock, Dark
+Fire, Flying, Bug
+Normal, Fire, Grass
+Electric, Flying, Rock
+Fighting, Poison, Psychic
+Fighting, Psychic, Dark
+Fire, Poison, Fairy
+Normal, Fire, Ice
+Fire, Poison, Steel
+Fighting, Dragon, Fairy
+Fire, Electric, Steel
+Water, Grass, Ice
+Psychic, Dragon, Dark
+Fighting, Psychic, Fairy
+Fire, Flying, Fairy
+Grass, Fighting, Dragon
+Normal, Fighting, Dragon
+Fire, Flying, Steel
+Electric, Grass, Steel
+Fighting, Psychic, Bug
+Rock, Dragon, Dark
+Fire, Ice, Flying
+Fire, Ice, Poison
+Normal, Grass, Fighting
+Electric, Poison, Steel
+Water, Grass, Steel
+Fire, Grass, Flying
+Fire, Grass, Poison
+Normal, Fire, Bug
+Electric, Rock, Steel
+Fire, Electric, Flying
+Fire, Electric, Poison
+Water, Electric, Steel

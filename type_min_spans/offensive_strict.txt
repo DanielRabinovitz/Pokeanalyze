@@ -1,0 +1,96 @@
+Grass, Ice, Fighting, Ground, Flying, Dark, Steel
+Grass, Fighting, Poison, Ground, Rock, Ghost, Fairy
+Grass, Ice, Fighting, Poison, Ground, Flying, Ghost
+Electric, Ice, Fighting, Poison, Ground, Flying, Dark
+Grass, Ice, Fighting, Ground, Flying, Ghost, Steel
+Electric, Ice, Fighting, Ground, Flying, Ghost, Steel
+Grass, Ice, Fighting, Poison, Ground, Flying, Dark
+Grass, Fighting, Poison, Ground, Rock, Dark, Fairy
+Electric, Ice, Fighting, Poison, Ground, Flying, Ghost
+Electric, Ice, Fighting, Ground, Flying, Dark, Steel
+Electric, Grass, Fighting, Poison, Ground, Flying, Dark, Fairy
+Electric, Ice, Fighting, Poison, Ground, Psychic, Rock, Dark
+Electric, Grass, Fighting, Ground, Flying, Dark, Steel, Fairy
+Water, Electric, Fighting, Poison, Ground, Flying, Ghost, Dragon
+Electric, Ice, Fighting, Ground, Psychic, Rock, Ghost, Steel
+Fire, Grass, Ice, Fighting, Ground, Dark, Steel, Fairy
+Fire, Electric, Grass, Fighting, Poison, Ground, Dark, Fairy
+Electric, Grass, Fighting, Poison, Ground, Flying, Ghost, Fairy
+Electric, Ice, Fighting, Poison, Ground, Rock, Dark, Fairy
+Grass, Fighting, Poison, Ground, Flying, Rock, Dragon, Dark
+Grass, Ice, Fighting, Ground, Psychic, Rock, Ghost, Steel
+Fire, Electric, Ice, Fighting, Poison, Ground, Ghost, Fairy
+Electric, Grass, Fighting, Poison, Ground, Flying, Ghost, Dragon
+Electric, Ice, Fighting, Ground, Rock, Ghost, Steel, Fairy
+Grass, Fighting, Ground, Bug, Rock, Dark, Steel, Fairy
+Fire, Grass, Ice, Fighting, Ground, Ghost, Steel, Fairy
+Fire, Electric, Ice, Fighting, Ground, Psychic, Dark, Steel
+Electric, Grass, Fighting, Ground, Flying, Ghost, Steel, Fairy
+Water, Electric, Fighting, Poison, Ground, Flying, Dragon, Dark
+Fire, Grass, Fighting, Ground, Rock, Dark, Steel, Fairy
+Electric, Grass, Fighting, Ground, Flying, Ghost, Dragon, Steel
+Fire, Electric, Ice, Fighting, Ground, Psychic, Ghost, Steel
+Fire, Grass, Ice, Fighting, Poison, Ground, Dark, Fairy
+Fire, Electric, Grass, Fighting, Ground, Dark, Steel, Fairy
+Electric, Grass, Fighting, Poison, Ground, Flying, Dragon, Dark
+Water, Electric, Fighting, Ground, Flying, Dark, Steel, Fairy
+Grass, Fighting, Ground, Bug, Rock, Ghost, Steel, Fairy
+Water, Electric, Fighting, Ground, Flying, Dragon, Dark, Steel
+Grass, Fighting, Poison, Ground, Psychic, Rock, Dragon, Dark
+Fire, Electric, Ice, Fighting, Ground, Ghost, Steel, Fairy
+Electric, Grass, Fighting, Ground, Flying, Dragon, Dark, Steel
+Grass, Fighting, Poison, Ground, Flying, Rock, Ghost, Dragon
+Fire, Water, Electric, Fighting, Ground, Dark, Steel, Fairy
+Fire, Grass, Ice, Fighting, Ground, Psychic, Ghost, Steel
+Fire, Electric, Ice, Fighting, Poison, Ground, Psychic, Ghost
+Fire, Grass, Fighting, Ground, Rock, Ghost, Steel, Fairy
+Electric, Ice, Fighting, Ground, Rock, Dark, Steel, Fairy
+Electric, Ice, Fighting, Ground, Psychic, Rock, Dark, Steel
+Electric, Ice, Fighting, Poison, Ground, Psychic, Rock, Ghost
+Fire, Electric, Grass, Fighting, Ground, Ghost, Steel, Fairy
+Fire, Electric, Ice, Fighting, Poison, Ground, Dark, Fairy
+Fire, Electric, Grass, Fighting, Poison, Ground, Ghost, Fairy
+Electric, Ice, Fighting, Poison, Ground, Rock, Ghost, Fairy
+Grass, Ice, Fighting, Ground, Psychic, Rock, Dark, Steel
+Fire, Grass, Ice, Fighting, Poison, Ground, Psychic, Ghost
+Grass, Ice, Fighting, Ground, Rock, Ghost, Steel, Fairy
+Fire, Water, Electric, Fighting, Ground, Ghost, Steel, Fairy
+Fire, Grass, Ice, Fighting, Poison, Ground, Psychic, Dark
+Fire, Water, Electric, Fighting, Poison, Ground, Ghost, Fairy
+Grass, Fighting, Ground, Flying, Rock, Ghost, Steel, Fairy
+Fire, Water, Electric, Fighting, Poison, Ground, Dark, Fairy
+Grass, Fighting, Poison, Ground, Psychic, Rock, Ghost, Dragon
+Grass, Fighting, Ground, Flying, Rock, Ghost, Dragon, Steel
+Water, Electric, Fighting, Ground, Flying, Ghost, Steel, Fairy
+Grass, Ice, Fighting, Ground, Rock, Dark, Steel, Fairy
+Water, Electric, Fighting, Poison, Ground, Rock, Dark, Fairy
+Water, Electric, Fighting, Ground, Flying, Ghost, Dragon, Steel
+Grass, Fighting, Ground, Flying, Rock, Dark, Steel, Fairy
+Fire, Grass, Ice, Fighting, Poison, Ground, Ghost, Fairy
+Water, Electric, Fighting, Poison, Ground, Flying, Dark, Fairy
+Fire, Electric, Ice, Fighting, Ground, Dark, Steel, Fairy
+Grass, Ice, Fighting, Poison, Ground, Psychic, Rock, Ghost
+Fire, Electric, Ice, Fighting, Poison, Ground, Psychic, Dark
+Water, Electric, Fighting, Poison, Ground, Rock, Ghost, Fairy
+Grass, Ice, Fighting, Poison, Ground, Psychic, Rock, Dark
+Fire, Grass, Ice, Fighting, Ground, Psychic, Dark, Steel
+Grass, Fighting, Ground, Flying, Rock, Dragon, Dark, Steel
+Water, Electric, Fighting, Poison, Ground, Flying, Ghost, Fairy
+Fire, Electric, Grass, Fighting, Ground, Psychic, Ghost, Dragon, Steel
+Water, Electric, Fighting, Poison, Ground, Psychic, Rock, Ghost, Dragon
+Fire, Electric, Grass, Fighting, Poison, Ground, Psychic, Ghost, Dragon
+Fire, Water, Electric, Fighting, Poison, Ground, Psychic, Dragon, Dark
+Water, Electric, Fighting, Ground, Bug, Rock, Ghost, Steel, Fairy
+Grass, Fighting, Ground, Psychic, Bug, Rock, Ghost, Dragon, Steel
+Water, Electric, Fighting, Poison, Ground, Psychic, Rock, Dragon, Dark
+Grass, Fighting, Ground, Psychic, Bug, Rock, Dragon, Dark, Steel
+Water, Electric, Fighting, Ground, Bug, Rock, Dark, Steel, Fairy
+Fire, Grass, Fighting, Ground, Psychic, Rock, Dragon, Dark, Steel
+Fire, Water, Electric, Fighting, Ground, Psychic, Ghost, Dragon, Steel
+Fire, Water, Electric, Fighting, Poison, Ground, Psychic, Ghost, Dragon
+Fire, Electric, Grass, Fighting, Ground, Psychic, Dragon, Dark, Steel
+Fire, Water, Electric, Fighting, Ground, Psychic, Dragon, Dark, Steel
+Fire, Grass, Fighting, Ground, Psychic, Rock, Ghost, Dragon, Steel
+Fire, Electric, Grass, Fighting, Poison, Ground, Psychic, Dragon, Dark
+Water, Electric, Fighting, Ground, Psychic, Bug, Rock, Ghost, Dragon, Steel
+Water, Electric, Fighting, Ground, Psychic, Bug, Rock, Dragon, Dark, Steel
