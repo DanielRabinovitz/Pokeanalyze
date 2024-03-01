@@ -132,7 +132,7 @@ Your team takes {def_diff()} damage than average.\n''')
 
 
     if(off_covered and def_covered and off_percent >= 100 and def_percent <= 100):
-        print('Your team is prepared for any type matchup,\nand your pokemon match up well both offensivley and defensivley into the tier.\nCongratulations, your tream is very well rounded!')
+        print('Your team is prepared for any type matchup,\nand your pokemon match up well both offensivley and defensivley into the tier.\nCongratulations, your team is very well rounded!')
     elif(off_covered and off_percent >= 100 and def_percent <= 100):
         print('Your team is prepared for any offensive type matchup and uses good pokemon,\nbut you have a hole in your defenses.\nFind pokemon that patch up your exposed type weakness.')
     elif(def_covered and off_percent >= 100 and def_percent <= 100):
@@ -142,7 +142,7 @@ Your team takes {def_diff()} damage than average.\n''')
     elif(off_covered and def_covered and off_percent >= 100):
         print('Your team is prepared for any type matchup,\nand your pokemon match up well offensivley into the tier.\nUnless you are running a hyper offense team, your team could use more defensive pokemon.')
     elif(off_covered and def_covered):
-        print('Your team is prepared for any type matchup,\nbut your pokemon do not match up well into the tier')    
+        print('Your team is prepared for any type matchup,\nbut your pokemon do not match up well into the tier. Focus on pokemon with better stats.')    
     else:
         print('Your team may be incomplete, or your team aims for a specific gimmick. \nFocus on using pokemon with stats and typings that better match the metagame\nand making sure that the types on your team are well rounded.')
 
