@@ -126,11 +126,13 @@ def score_1v1(t_poke, o_poke):
     o_spa = o_poke['baseStats']['spa']
     o_def = o_poke['baseStats']['def']
     o_spd = o_poke['baseStats']['spd']
+    o_spe = o_poke['baseStats']['spe']
     o_hp = o_poke['baseStats']['hp']
     t_atk = t_poke['baseStats']['atk']
     t_spa = t_poke['baseStats']['spa']
     t_def = t_poke['baseStats']['def']
     t_spd = t_poke['baseStats']['spd']
+    t_spe = t_poke['baseStats']['spe']
     t_hp = t_poke['baseStats']['hp']
 
     #Adjust defscore for stats
@@ -148,9 +150,11 @@ def score_1v1(t_poke, o_poke):
         # Defense score = score * o_poke's spatk / t_poke's spdef
         scores['Defense'] = scores['Defense'] * o_spa / t_spd / (t_hp/86.2)
 
-    # if the two stats are the same, just apply both ratios
+    # if the two stats are the same, average the score for a special attacker and a physical attacker.
     else:
-        scores['Defense'] = scores['Defense'] * o_spa / t_spd * o_atk / t_def / (t_hp/86.2)
+        score_atk = scores['Defense'] * o_atk / t_def / (t_hp/86.2)
+        score_spa = scores['Defense'] * o_spa / t_spd / (t_hp/86.2)
+        scores['Defense'] = (score_atk+score_spa)/2
 
     # Adjust offscore for stats
     # if t_poke is a physical attacker 
@@ -163,13 +167,15 @@ def score_1v1(t_poke, o_poke):
         # Offense score = score * t_poke's spatk / o_poke's spdef
         scores['Offense'] = scores['Offense'] * t_spa / o_spd / (o_hp/86.2)
 
-    # if the two stats are the same, just apply both ratios
+    # if the two stats are the same, average the ratios.
     else:
-        scores['Offense'] = scores['Offense'] * t_spa / o_spd * t_atk / o_def / (o_hp/86.2)
+        score_atk = scores['Offense'] * t_atk / o_def / (o_hp/86.2)
+        score_spa = scores['Offense'] * t_spa / o_spd / (o_hp/86.2)
+        scores['Offense'] = (score_atk+score_spa)/2
 
-        #round scores to 2 decimal points
-        scores['Offense'] = round(scores['Offense'], 2)
-        scores['Defense'] = round(scores['Defense'], 2)
+    #round scores to 2 decimal points
+    scores['Offense'] = round(scores['Offense'], 2)
+    scores['Defense'] = round(scores['Defense'], 2)
 
     return scores
 
@@ -219,6 +225,7 @@ def poke_vs_tier(poke_name, tier):
     avgs = avg_matchups(score_vs_tier(poke, tier))
 
     scores = {'Pokemon_Name': poke_name,
+              'Tier_Compared_To': tier,
               'Avg_Defense': avgs['Avg_Defense'],
               'Avg_Offense': avgs['Avg_Offense']}
     
@@ -230,6 +237,7 @@ def pokeObj_vs_tier(poke, tier):
     avgs = avg_matchups(score_vs_tier(poke, tier))
 
     scores = {'Pokemon_Name': poke['name'],
+              'Tier_Compared_To': tier,
               'Avg_Defense': avgs['Avg_Defense'],
               'Avg_Offense': avgs['Avg_Offense']}
     

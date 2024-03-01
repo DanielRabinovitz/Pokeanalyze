@@ -21,4 +21,3 @@ def tier_vs_tier(tier1, tier2):
 
 
 
-
