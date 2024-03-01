@@ -1,106 +1,106 @@
-Normal, Ground
-Ghost, Fairy
+Electric, Ghost
+Ground, Rock
+Fighting, Ghost
+Rock, Ghost
 Ice, Ghost
+Water, Rock
+Electric, Fighting
+Electric, Dragon
+Water, Fairy
+Poison, Dark
+Ground, Flying
+Water, Ghost
+Electric, Dark
+Bug, Ghost
+Dark, Steel
+Ice, Dark
+Fire, Rock
+Water, Dragon
+Poison, Ground
+Dark, Fairy
+Fire, Ghost
+Water, Bug
+Flying, Ghost
+Water, Dark
+Water, Poison
+Electric, Fairy
+Grass, Ghost
+Ice, Ground
+Fire, Dragon
+Ground, Steel
+Normal, Ghost
 Electric, Psychic
 Fighting, Flying
-Grass, Ghost
-Water, Fighting
-Fighting, Steel
-Fire, Rock
-Flying, Dark
-Electric, Fairy
-Poison, Ghost
-Electric, Ghost
-Normal, Dark
-Water, Dark
-Ice, Fighting
-Fire, Dragon
-Electric, Bug
-Water, Psychic
-Bug, Ghost
-Fire, Ground
-Ground, Flying
-Flying, Ghost
-Electric, Ice
-Rock, Ghost
-Water, Fairy
-Fire, Fighting
-Normal, Ghost
-Water, Ghost
-Ground, Dragon
-Ground, Steel
-Fighting, Rock
-Fire, Dark
-Dark, Steel
-Water, Bug
 Normal, Water
-Ghost, Dragon
-Ghost, Steel
-Fighting, Ghost
-Fire, Psychic
-Ice, Ground
-Ground, Dark
-Electric, Dragon
-Fire, Ghost
-Poison, Ground
-Normal, Electric
-Ground, Rock
-Ice, Dark
-Ground, Psychic
-Water, Rock
-Grass, Dark
-Electric, Fighting
-Water, Flying
-Water, Poison
 Ground, Fairy
-Poison, Dark
+Fire, Dark
+Ice, Fighting
+Flying, Dark
+Ghost, Steel
+Water, Flying
+Grass, Dark
+Ground, Psychic
 Ground, Ghost
-Electric, Dark
-Water, Dragon
-Dark, Fairy
-Grass, Fighting, Psychic
-Fighting, Poison, Dragon
-Normal, Fighting, Psychic
-Electric, Grass, Rock
-Fire, Poison, Bug
-Normal, Fighting, Fairy
-Electric, Grass, Flying
-Electric, Grass, Poison
-Fighting, Psychic, Dragon
-Electric, Poison, Flying
-Psychic, Bug, Dark
-Normal, Fire, Fairy
-Normal, Fire, Steel
-Psychic, Rock, Dark
-Fire, Flying, Bug
-Normal, Fire, Grass
-Electric, Flying, Rock
-Fighting, Poison, Psychic
-Fighting, Psychic, Dark
-Fire, Poison, Fairy
-Normal, Fire, Ice
-Fire, Poison, Steel
-Fighting, Dragon, Fairy
-Fire, Electric, Steel
-Water, Grass, Ice
+Water, Psychic
+Normal, Dark
+Electric, Bug
+Ghost, Fairy
+Water, Fighting
+Normal, Electric
+Ground, Dragon
+Fire, Ground
+Fighting, Steel
+Poison, Ghost
+Ground, Dark
+Normal, Ground
+Fire, Psychic
+Ghost, Dragon
+Electric, Ice
+Fighting, Rock
+Fire, Fighting
 Psychic, Dragon, Dark
-Fighting, Psychic, Fairy
-Fire, Flying, Fairy
-Grass, Fighting, Dragon
-Normal, Fighting, Dragon
-Fire, Flying, Steel
-Electric, Grass, Steel
+Water, Grass, Steel
 Fighting, Psychic, Bug
+Electric, Rock, Steel
+Fighting, Psychic, Dark
+Fire, Electric, Poison
+Water, Grass, Ice
+Normal, Fire, Fairy
+Grass, Fighting, Dragon
+Electric, Grass, Poison
+Fire, Electric, Flying
 Rock, Dragon, Dark
-Fire, Ice, Flying
+Fire, Grass, Poison
+Fire, Flying, Steel
+Normal, Fire, Bug
+Electric, Flying, Rock
+Normal, Fighting, Dragon
+Electric, Poison, Flying
 Fire, Ice, Poison
+Normal, Fire, Steel
+Fire, Poison, Fairy
+Fire, Flying, Fairy
+Psychic, Rock, Dark
+Fighting, Dragon, Fairy
+Electric, Grass, Flying
+Psychic, Bug, Dark
+Normal, Fire, Grass
+Normal, Fire, Ice
+Fire, Grass, Flying
+Fire, Electric, Steel
+Grass, Fighting, Psychic
+Fighting, Psychic, Fairy
+Fire, Ice, Flying
+Water, Electric, Steel
+Fire, Poison, Bug
+Fire, Flying, Bug
+Normal, Fighting, Fairy
 Normal, Grass, Fighting
 Electric, Poison, Steel
-Water, Grass, Steel
-Fire, Grass, Flying
-Fire, Grass, Poison
-Normal, Fire, Bug
-Electric, Rock, Steel
-Fire, Electric, Flying
-Fire, Electric, Poison
-Water, Electric, Steel
+Fire, Poison, Steel
+Fighting, Poison, Psychic
+Normal, Fighting, Psychic
+Fighting, Psychic, Dragon
+Electric, Grass, Steel
+Electric, Grass, Rock
+Fighting, Poison, Dragon

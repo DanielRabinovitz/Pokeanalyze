@@ -12,6 +12,28 @@ type_chart_def = pandas.read_csv('typechart.csv')
 type_chart_def.set_index('Attacking', inplace=True)
 type_chart_atk = type_chart_def.T
 
+index_to_type = {
+    0: 'Normal',
+    1: 'Fire',
+    2: 'Water',
+    3: 'Electric',
+    4: 'Grass',
+    5: 'Ice',
+    6: 'Fighting',
+    7: 'Poison',
+    8: 'Ground',
+    9: 'Flying',
+    10: 'Psychic',
+    11: 'Bug',
+    12: 'Rock',
+    13: 'Ghost',
+    14: 'Dragon',
+    15: 'Dark',
+    16: 'Steel',
+    17: 'Fairy'
+}
+
+
 type_list = type_chart_def.columns.tolist()
 
 """
@@ -140,37 +162,55 @@ def score_1v1(t_poke, o_poke):
     #I use the constant 86.2 because that's the avg hp of all pokes in OU to PU
     #I divide by the avg hp to weight the defensive poke's score. If their base HP is higher than 86.2, hp/86.2 this will lower the score, indicating lower expected damage to their overall HP pool. If their base HP is lower than 86.2, hp/86.2 will raise the def score indicating that they are expected take a higher portion of their hp pool
 
+    #this function returns 0.5 if the attacker is faster than the defender. The logic here is that a faster mon is expected to get in one more hit than the slower one, but usually the slower mon will be replaced by a defensivley viable switch in.
+    def speed_mod(o_or_t):
+
+        mod_num = 1.3
+
+        if o_or_t == 'o':
+            if(o_spe > t_spe):
+                return mod_num
+            else:
+                return 1
+        
+        if o_or_t == 't':
+            if(o_spe < t_spe):
+                return mod_num
+            else:
+                return 1
+
+
     # if o_poke is a physical attacker 
     if o_atk > o_spa:
         # Defense score = score * o_poke's atk / t_poke's defense
-        scores['Defense'] = scores['Defense'] * o_atk / t_def / (t_hp/86.2)
+        scores['Defense'] = (scores['Defense'] * o_atk * speed_mod('o')) / t_def / (t_hp/86.2)
 
     # if o_poke is a special attacker
     elif o_atk < o_spa:
         # Defense score = score * o_poke's spatk / t_poke's spdef
-        scores['Defense'] = scores['Defense'] * o_spa / t_spd / (t_hp/86.2)
+        scores['Defense'] = (scores['Defense'] * o_spa * speed_mod('o')) / t_spd / (t_hp/86.2)
 
     # if the two stats are the same, average the score for a special attacker and a physical attacker.
     else:
-        score_atk = scores['Defense'] * o_atk / t_def / (t_hp/86.2)
-        score_spa = scores['Defense'] * o_spa / t_spd / (t_hp/86.2)
+        score_atk = (scores['Defense'] * o_atk * speed_mod('o')) / t_def / (t_hp/86.2)
+        score_spa = (scores['Defense'] * o_spa * speed_mod('o')) / t_spd / (t_hp/86.2)
         scores['Defense'] = (score_atk+score_spa)/2
 
     # Adjust offscore for stats
     # if t_poke is a physical attacker 
     if t_atk > t_spa:
         # Offense score = score * t_poke's atk / o_poke's defense
-        scores['Offense'] = scores['Offense'] * t_atk / o_def  / (o_hp/86.2)
+        scores['Offense'] = (scores['Offense'] * t_atk * speed_mod('t')) / o_def  / (o_hp/86.2)
 
     # if t_poke is a special attacker
     elif t_atk < t_spa:
         # Offense score = score * t_poke's spatk / o_poke's spdef
-        scores['Offense'] = scores['Offense'] * t_spa / o_spd / (o_hp/86.2)
+        scores['Offense'] = (scores['Offense'] * t_spa * speed_mod('t')) / o_spd / (o_hp/86.2)
 
     # if the two stats are the same, average the ratios.
     else:
-        score_atk = scores['Offense'] * t_atk / o_def / (o_hp/86.2)
-        score_spa = scores['Offense'] * t_spa / o_spd / (o_hp/86.2)
+        score_atk = (scores['Offense'] * t_atk * speed_mod('t')) / o_def / (o_hp/86.2)
+        score_spa = (scores['Offense'] * t_spa * speed_mod('t')) / o_spd / (o_hp/86.2)
         scores['Offense'] = (score_atk+score_spa)/2
 
     #round scores to 2 decimal points

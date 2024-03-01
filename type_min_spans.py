@@ -133,31 +133,34 @@ def defensive_min_covers(df):
                 
     return filter_unique_tuples(sorted(set(valid_combinations), key=len)) #return combos that don't contain any of the previous combos
 
+
+#Everything below is for calculating the solutions the files that are already in the type_min_spans folder. Uncomment if you need to run locally for some reason but otherwise the below makes importing this file annoying. 
+
 #find all three min spans: offensive_relaxed, offensive_strict, and defensive min spans, then write them to file.
 
-offensive_relaxed = offensive_relaxed_min_covers(mc.type_chart_atk)
+# offensive_relaxed = offensive_relaxed_min_covers(mc.type_chart_atk)
 
-with open('type_min_spans/offensive_relaxed.txt', 'w') as file:
-    for sublist in offensive_relaxed:
-        # Joining each element of the sublist with a space and writing it to the file
-        file.write(', '.join(sublist) + '\n')
+# with open('type_min_spans/offensive_relaxed.txt', 'w') as file:
+#     for sublist in offensive_relaxed:
+#         # Joining each element of the sublist with a space and writing it to the file
+#         file.write(', '.join(sublist) + '\n')
+        
+# print("offensive_relaxed!")
 
-print("offensive_relaxed!")
+# offensive_strict = offensive_strict_min_covers(mc.type_chart_atk)
 
-offensive_strict = offensive_strict_min_covers(mc.type_chart_atk)
+# with open('type_min_spans/offensive_strict.txt', 'w') as file:
+#     for sublist in offensive_strict:
+#         # Joining each element of the sublist with a space and writing it to the file
+#         file.write(', '.join(sublist) + '\n')
 
-with open('type_min_spans/offensive_strict.txt', 'w') as file:
-    for sublist in offensive_strict:
-        # Joining each element of the sublist with a space and writing it to the file
-        file.write(', '.join(sublist) + '\n')
+# print("offensive_strict!")
 
-print("offensive_strict!")
+# defensive = defensive_min_covers(mc.type_chart_def)
 
-defensive = defensive_min_covers(mc.type_chart_def)
+# with open('type_min_spans/defensive.txt', 'w') as file:
+#     for sublist in defensive:
+#         # Joining each element of the sublist with a comma and writing it to the file
+#         file.write(', '.join(sublist) + '\n')
 
-with open('type_min_spans/defensive.txt', 'w') as file:
-    for sublist in defensive:
-        # Joining each element of the sublist with a comma and writing it to the file
-        file.write(', '.join(sublist) + '\n')
-
-print("defensive!")
+# print("defensive!")
