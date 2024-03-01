@@ -128,7 +128,7 @@ Your team takes {def_diff()} damage than average.\n''')
     if def_covered == False:
         print('You cannot switch into these types safely:', missing_def,'\n')
     else:
-        print(f'You can switch into and safely resist any type!')
+        print(f'You can switch into and safely resist any type!\n')
 
 
     if(off_covered and def_covered and off_percent >= 100 and def_percent <= 100):
