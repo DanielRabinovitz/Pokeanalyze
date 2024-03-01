@@ -173,6 +173,15 @@ def score_1v1(t_poke, o_poke):
 
     return scores
 
+#wrapped for score_1v1 that takes in two pokemon names
+def score_1v1_names(name1, name2):
+
+    poke1 = dex.poke_by_name(name1)
+    poke2 = dex.poke_by_name(name2)
+
+    return score_1v1(poke1, poke2)
+
+
 #takes in a poke and a tier, then finds the scores for the poke vs the entire tier
 def score_vs_tier(poke, tier):
     
