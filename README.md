@@ -1,4 +1,4 @@
-This repository contains a 6v6 smogon singles team builder that tells you how to improve your team in any of the tiers of standard play.
+This repository contains a 6v6 smogon singles team builder that tells you how to improve your team in any of the tiers of standard play. The teambuilder could use a lot of additional features but this is a passion project I'm done with for now, feel free to improve it an contribute a real UI or something :)
 
 You can publicly run the notebook that explains how everything works here, just hit "Run All" at the top.
 https://colab.research.google.com/drive/1IFFcgsD3BpoA9wnxhfJRbKU1oQW1nndA?usp=sharing
@@ -19,6 +19,8 @@ of types required to have a resistance to everything, to hit everything for neut
 It also has a function for getting the average matchup of all pokemon inside of their own tier.
 - avgstats.py is a file that just calculates the average of each stat across all tiers. 
 It's not used anywhere in the rest of the code and was just me testing a summary statistic.
-- teamchecker.py is the final team builder. It takes in a tier and a list of pokemon names, and then it prints feedback based on your team to the console. 
+- teamchecker.py is the final team builder. It takes in a tier and a list of pokemon names, and then it prints feedback based on your team to the console.
+- pokedex.json was just a reference for me to look at during development. The pokedex class uses the showdown API URL directly in case tiers shift later on.
+- typechart.csv is a matrix of all the type matchups. It gets turned into a dataframe inside of matchup_calcs.py.
 
 
