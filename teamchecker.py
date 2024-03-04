@@ -14,7 +14,8 @@ def teamcheck(tier, pokemon_names):
     #placeholders to calc things later
     sum_offense = 0
     sum_defense = 0
-    team_types = []
+    team_types_off = []
+    team_types_def = []
 
     for poke in pokemon_names:
 
@@ -23,9 +24,12 @@ def teamcheck(tier, pokemon_names):
         sum_offense += scores['Avg_Offense']
         sum_defense += scores['Avg_Defense']
 
-        #
+        #for offense, you don't need the types to be paired
         for type in Pokedex().poke_by_name(poke)['types']:
-            team_types.append(type)
+            team_types_off.append(type)
+
+        #for defense you do
+        team_types_def.append(Pokedex().poke_by_name(poke)['types'])
     
     #make the team scores
     team_scores = {'Team_Offense': round(sum_offense/len(pokemon_names),2),
@@ -35,19 +39,34 @@ def teamcheck(tier, pokemon_names):
     offensive_coverage = [0 for i in range(len(mc.type_chart_def.columns.tolist()))]
     defensive_coverage = [0 for i in range(len(mc.type_chart_def.columns.tolist()))]
 
-    #actually calculate the type chart scores
-    for type in team_types:
+    #calculate the offense score:
+    for type in team_types_off:
 
         #get onehot list for type. 
         type_off = tp.onehot_offense_relaxed(type)
-        type_def = tp.onehot_defense(type)
+
                     
-        #update the lists above to reflect each type score
+        #update the offensive_coverage above to reflect each type score
         for i in range(len(type_off)):
-            
             if type_off[i] == 1:
                 offensive_coverage[i] = 1
 
+    #calc the defense scores
+    for types in team_types_def:
+
+        #monotype case is easy
+        if(len(types)==1):
+            type_def = tp.onehot_defense(types[1])
+
+        #dual type case requires some looping
+        if(len(types)==2):
+            #multiply the two type's defensive matchups together
+            type_def = mc.type_chart_def[types[0]]*mc.type_chart_def[types[1]]
+            #I did not write onehot_defense to take in a type vector, it takes in a type name. This does the same thing as onehot_defense.
+            type_def = [1 if x < 1 else 0 for x in type_def]
+        
+        #update defensive coverage above to reflect each type score
+        for i in range(len(type_def)):
             if type_def[i] == 1:
                 defensive_coverage[i] = 1
 
@@ -146,3 +165,4 @@ Your team takes {def_diff()} damage than average.\n''')
     else:
         print('Your team may be incomplete, or your team aims for a specific gimmick. \nFocus on using pokemon with stats and typings that better match the metagame\nand making sure that the types on your team are well rounded.')
 
+teamcheck('OU', ['kingambit'])
