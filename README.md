@@ -1,5 +1,8 @@
 This repository contains a 6v6 smogon singles team builder that tells you how to improve your team in any of the tiers of standard play. The teambuilder could use a lot of additional features but this is a passion project I'm done with for now, feel free to improve it an contribute a real UI or something :)
 
+Here's a youtube video where I go through and explain everything inthe jupyter notebook. I don't cover all the code in the backend and focus on math and logic of the model.
+https://youtu.be/uK2O7kgpLS8
+
 You can publicly run the notebook that explains how everything works here, just hit "Run All" at the top.
 https://colab.research.google.com/drive/1IFFcgsD3BpoA9wnxhfJRbKU1oQW1nndA?usp=sharing
 
