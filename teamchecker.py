@@ -56,7 +56,7 @@ def teamcheck(tier, pokemon_names):
 
         #monotype case is easy
         if(len(types)==1):
-            type_def = tp.onehot_defense(types[1])
+            type_def = tp.onehot_defense(types[0])
 
         #dual type case requires some looping
         if(len(types)==2):
